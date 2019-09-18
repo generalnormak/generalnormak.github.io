@@ -1,2 +1,3 @@
  // toLocalLeDateString
- document.getElementById('lastmodified').textContent = let oLastModif = new Date(document.lastModified);
+ let oLastModif = new Date(document.lastModified);
+ document.getElementById('lastmodified').textContent = new Date();
