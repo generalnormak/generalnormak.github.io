@@ -1,2 +1,2 @@
- // toLastModified
- var string = document.lastModified;
+ // toLocalLeDateString
+ alert (document.lastModified);
