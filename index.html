@@ -39,9 +39,13 @@
         </section>
     </main>
     <footer>
-        &copy; 2019 | The best test documnet | All Rights Reserved | Today's Date: 18 September 2019
+        &copy; 2019 | The best test documnet | All Rights Reserved | Today's Date: <span id="currentdate"></span>
     </footer>
-
+    <script>
+        // toLocalLeDateString
+        const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+        document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);        
+    </script>
 </body>
 
 </html>
