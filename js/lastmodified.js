@@ -1,2 +1,2 @@
  // toLocalLeDateString
- alert (document.lastModified);
+ let oLastModig = new Date(document.lastModified);
