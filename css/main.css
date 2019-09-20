@@ -16,7 +16,7 @@ footer {
     background-color: red;
     color: #fff;
     text-align: center;
-    border-radius: 5rem;
+    border-radius: 0.5rem;
 }
 
 header {
@@ -32,5 +32,12 @@ h1 img {
 
 h2 {
     text-align: center;
-    border-style: outset;
+    border-bottom: 0.10rem solid black;
+}
+
+footer.lastupdated {
+    text-align: center;
+    text-size-adjust: 0.5rem;
+    color: yellow;
+    border: 1px solid yellowgreen;
 }
