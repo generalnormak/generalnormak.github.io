@@ -16,6 +16,7 @@ footer {
     background-color: red;
     color: #fff;
     text-align: center;
+    border-radius: 5rem;
 }
 
 header {
@@ -30,5 +31,6 @@ h1 img {
 }
 
 h2 {
-    text-align: center
+    text-align: center;
+    border-style: outset;
 }
