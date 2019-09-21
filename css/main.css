@@ -35,9 +35,9 @@ h2 {
     border-bottom: 0.10rem solid black;
 }
 
-footer.lastupdated {
+footer .lastupdated {
     text-align: center;
-    text-size-adjust: 0.5rem;
+    font-size: 0.9rem;
     color: yellow;
-    border: 1px solid yellowgreen;
+    border-bottom: 1px solid yellowgreen;
 }
