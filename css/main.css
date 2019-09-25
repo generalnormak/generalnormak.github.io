@@ -30,9 +30,14 @@ h1 img {
     background-color: red;
 }
 
+h1 {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
 h2 {
     text-align: center;
     border-bottom: 0.10rem solid black;
+    font-family: 'Be Vietnam', sans-serif;
 }
 
 footer .lastupdated {
