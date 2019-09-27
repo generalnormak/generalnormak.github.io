@@ -1,7 +1,9 @@
-h1, h2 {
-font-family: 'Be Vietnam', sans-serif;
+h1,
+h2 {
+    font-family: 'Be Vietnam', sans-serif;
 }
 
-main, footer {
+main,
+footer {
     font-family: 'Nunito', sans-serif;
 }
