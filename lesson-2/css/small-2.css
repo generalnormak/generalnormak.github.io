@@ -17,7 +17,7 @@ header,
 main,
 footer {
     margin: 1.25rem auto;
-    max-width: 760px;
+    max-width: 1000px;
 }
 
 header,
@@ -56,4 +56,6 @@ main {
 
 section img {
     box-shadow: 0 0 30px #333;
+    width: 100%;
+    height: auto;
 }
