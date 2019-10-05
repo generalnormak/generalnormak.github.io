@@ -130,9 +130,4 @@ section img {
     width: auto;
     height: 650px;
     overflow: scroll;
-    overflow: -moz-hidden-unscrollable;
--ms-overflow-style: none;
-}
-.box::-webkit-scrollbar {
-width: 0 !important
 }
