@@ -68,13 +68,6 @@ nav a:hover {
     color: yellow;
 }
 
-footer .lastupdated3 {
-    text-align: center;
-    font-size: 0.9rem;
-    color: yellow;
-    border-bottom: 1px solid yellowgreen;
-}
-
 h3 {
     background-color: red;
     color: #fff;
@@ -130,4 +123,11 @@ section img {
     width: auto;
     height: 650px;
     overflow: scroll;
+}
+
+footer .lastupdated4 {
+    text-align: center;
+    font-size: 0.9rem;
+    color: yellow;
+    border-bottom: 1px solid yellowgreen;
 }
