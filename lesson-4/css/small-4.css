@@ -18,7 +18,7 @@ nav,
 main,
 footer {
     margin: auto;
-    max-width: 767px;
+    max-width: 1000px;
 }
 
 
@@ -125,7 +125,7 @@ section img {
     overflow: scroll;
 }
 
-footer .lastupdated4 {
+footer .lastupdated4, .currentdate4 {
     text-align: center;
     font-size: 0.9rem;
     color: yellow;
