@@ -17,12 +17,18 @@
 
 <body>
     <header>
-        <h1>IsItHotOutHereOrIsItJustMe - Home Page</h1>
-        <h2>Kameron N Redford</h2>
+        <picture>
+            <img src="images/weathersitelogo.png" alt="Sunny Forcast Logo">
+        </picture>
+        <section class="headings">
+        <h1>Is It Hot Out Here Or Is It Just Me?</h1>
+        <div class="m">The weather site that gets it right 100% of the time, until the weather actually changes.</div>
+        </section>
 
     </header>
     <nav>
-        <Ul>
+        <Ul class="navigation">
+            <li><a href="#" onclick="toggleMenue()">&#9776; Menu</a></li>
             <li><a href="../index.html">Home</a></li>
             <li><a href="#" class="active">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
@@ -34,18 +40,22 @@
     </nav>
     <main>
         <h3>Preston Idaho</h3>
-        <div class="contentbox">Hero e/ weather summary</div>
-        <div class="contentbox">5 Day Forecast</div>
-        <div class="contentbox">Article</div>
-        <div class="contentbox">Contact Information</div>
+        <section class="contentbox">Hero e/ weather summary</section>
+        <section class="contentbox">5 Day Forecast</section>
+        <section class="contentbox">Article</section>
+        <section class="contentbox">Contact Information</section>
 
     </main>
 
     <footer>
         &copy; 2020 | Kameron N. Redford | Florida | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
-        <br><span class="currentdate4">Current Date: <span id="date4"></span></span>
+        <span class="currentdate4">Current Date: <span id="date4"></span></span>
         <br><span class="lastupdated4">Updated: <span id="lastmodified4"></span></span>
     </footer>
+    <script src="js/responsivemenu-4.js">
+    </script>
+    <script src="js/currentdate-4.js">
+    </script>
     <script src="js/lastmodified-4.js">
     </script>
 </body>

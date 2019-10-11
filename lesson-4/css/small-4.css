@@ -1,22 +1,43 @@
 header {
     font-family: 'Be Vietnam', sans-serif;
     padding: 1.5rem;
+    display: flex;
+	align-items:center;
+	justify-content:center;
 }
 
-main,
-footer {
-    font-family: 'Nunito', sans-serif;
+header img {
+	width: 80px;
+    height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	margin-left: 20px;
+	font-size: .9rem;
 }
 
 body {
     font-size: 18px;
     line-height: 1.5;
+    padding: 0;
+	margin: 0;
 }
 
-header,
-nav,
 main,
 footer {
+    font-family: 'Nunito', sans-serif;
     margin: auto;
     max-width: 1000px;
 }
@@ -43,6 +64,30 @@ nav {
     font-family: 'Be Vietnam', sans-serif;
 }
 
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #fff;
+	font-weight: 700;
+}
+
 nav li a {
     display: block;
     color: #fff;
@@ -64,7 +109,7 @@ nav a:hover {
     color: #36454f;
 }
 
-.active {
+.navigation .active {
     color: yellow;
 }
 
@@ -72,57 +117,15 @@ h3 {
     background-color: red;
     color: #fff;
     border-radius: 0.5rem;
-}
-
-.black {
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
-}
-
-.white1 {
-    color: white;
-    font-family: 'Nunito', sans-serif;
-}
-
-.white2 {
-    color: white;
-    font-family: 'Be Vietnam', sans-serif;
-    font-size: 0.95rem;
-}
-
-.yellow2 {
-    color: yellow;
-    font-family: 'Be Vietnam', sans-serif;
-}
-
-.yellow1 {
-    color: yellow;
-    font-size: 0.9rem;
-    font-family: 'Nunito', sans-serif;
-}
-
-section {
-    background-color: lightgrey;
-    border-radius: 0.5rem;
     margin: 0.5rem;
     border: 1px solid black;
 }
 
-main {
-    display: grid;
-    grid-template-columns: auto;
-}
-
-section img {
-    box-shadow: 0 0 30px #333;
-    width: 100%;
-    height: auto;
-}
-
-.scroll {
-    width: auto;
-    height: 650px;
-    overflow: scroll;
+.contentbox {
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid black;
 }
 
 footer .lastupdated4, .currentdate4 {
