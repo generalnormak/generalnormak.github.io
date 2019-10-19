@@ -9,5 +9,7 @@ const daynames = [
 ];
 const d = new Date();
 const dayName = daynames[d.getDay()];
-if dayName = daynames[d.Friday()];
-.pancakes.display = "block"
+if (dayName = daynames[d.Friday()])
+function toggleMenu() {
+	document.getElementsByClassName("pancakes")[0].classList.toggle("showpancakes");
+}
