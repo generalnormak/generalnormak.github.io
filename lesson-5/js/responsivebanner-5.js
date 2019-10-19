@@ -9,7 +9,7 @@ const daynames = [
 ];
 const d = new Date();
 const dayName = daynames[d.getDay()];
-if (dayName = daynames[d.Friday()])
+if (dayName = daynames[d.Saturday()])
 function toggleMenu() {
 	document.getElementsByClassName("pancakes")[0].classList.toggle("showpancakes");
 }
