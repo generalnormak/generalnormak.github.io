@@ -3,8 +3,8 @@ function epicpancake(){
 	const day = date.getDay();
 	// console.log(day);
 	//  console.log(date);
-	 if(day == 5) {
-		document.getElementsByClassName("pancakes").style.visibility ="hidden";
+	 if(day == 3) {
+		document.getElementsByClassName("pancakes").style.visibility ="visible";
 	 }
 	// }else{
 	// 	document.getElementsByClassName("pancakes").style.display ="none";

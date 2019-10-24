@@ -17,7 +17,7 @@ body {
     background-color: lightgrey;
     margin: 0.5rem;
     border: 1px solid black;
-    display: block;
+    visibility: hidden;
 }
 
  /* #showpancakes {
