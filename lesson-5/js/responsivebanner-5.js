@@ -3,7 +3,7 @@ function epicpancake(){
 	const day = date.getDay();
 	// console.log(day);
 	//  console.log(date);
-	 if(day == 3) {
+	 if(day == 2) {
 		document.getElementsByClassName("pancakes").style.display ="block";
 	 }
 	// }else{
