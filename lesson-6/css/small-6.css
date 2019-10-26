@@ -135,10 +135,11 @@ h3 {
 }
 
 .herodiv {
-    margin: 10px auto;
+    margin: 0px auto;
     position: relative;
-    width: 960px;
+    width: 100%;
     height: 325px;
+    text-align: center;
 }
 
 .hero-ph {
