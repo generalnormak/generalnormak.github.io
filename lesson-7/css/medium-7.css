@@ -39,7 +39,7 @@
     
     .container {
         grid-template-columns: 47.5% 47.5%;
-        grid-template-rows: 400px 400px 400px 400px 400px;
+        grid-template-rows: 200px 200px 200px 200px 200px;
     }
 
 
