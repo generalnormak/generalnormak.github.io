@@ -5,20 +5,6 @@ body {
     margin: 0;
 }
 
-.pancakes {
-    font-family: 'Be Vietnam', sans-serif;
-    padding: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 0.5rem;
-    padding: 10px;
-    background-color: lightgrey;
-    margin: 0.5rem;
-    border: 1px solid black;
-    display: none;
-}
 
 header {
     font-family: 'Be Vietnam', sans-serif;
@@ -132,7 +118,6 @@ nav a:hover {
     text-align: center;
     grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px 400px;
     grid-template-columns: 90%;
-    grid-gap: 5%;
     max-width: 1200px;
     
 }
