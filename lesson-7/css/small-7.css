@@ -118,6 +118,7 @@ nav a:hover {
     text-align: center;
     grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px 400px;
     grid-template-columns: 90%;
+    grid-gap: 5%;
     max-width: 1200px;
     
 }
