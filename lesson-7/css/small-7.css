@@ -118,22 +118,26 @@ nav a:hover {
     text-align: center;
     grid-template-rows: 250px 250px 250px 250px 250px 200px 250px 300px 250px;
     grid-template-columns: 90%;
-    grid-gap: 5%;
+    grid-gap: 0.1%;
     max-width: 1200px;
     
 }
 
-figure {
-    margin: 10px;
+figure {   
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 figure figcaption {
     color: white;
-    margin-top: 0px;
+    margin: auto;
     width: auto;
     height: 20px;
     background: red;
     font-size: smaller;
+    
 }
 
 article img[data-src] {

@@ -10,7 +10,7 @@
     
     .container {
         grid-template-columns: 30% 30% 30%;
-        grid-template-rows: 250px 250px 250px;
+        grid-template-rows: 250px 250px 300px;
     }
 
 	footer,
