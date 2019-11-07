@@ -1,0 +1,35 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+table, th, td, thead, tfoot {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+thead, tfoot {
+    background-color: #7fb9c2;
+    text-align: center;
+}
+
+thead {
+    text-size-adjust: 50px;
+}
+
+th {
+    background-color: #628ca6;
+    color: white;
+}
+
+td {
+    background-color: #e7f0ed;
+    text-align: center;
+}
+
+.greenish {
+    background-color: #e7ffed;
+    text-align: center;
+}
+
+tfoot {
+    text-size-adjust: 20px;
+}
