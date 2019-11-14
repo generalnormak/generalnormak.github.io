@@ -22,7 +22,7 @@ fetch(requestURL)
 
             image.setAttribute('src', prophets[i].imageur1);
 
-            card.appendChild(h2);
+            card.appendChild(h2, h3, h4, img);
 
             document.querySelector('div.cards').appendChild(card);
         }
