@@ -12,7 +12,7 @@ fetch(requestURL)
             let h2 = document.createElement('h2');
             let h3 = document.createElement('h3');
             let h4 = document.createElement('h4');
-            let img = document.createElement('image');
+            let image = document.createElement('img');
 
             h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
 
