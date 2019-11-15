@@ -176,6 +176,16 @@ h3 {
     padding: 80px;
 }
 
+.towns {
+    display: block;
+
+
+
+
+
+
+}
+
 .mapimage {
     display: none;
 }
@@ -209,15 +219,7 @@ h3 {
     border: 1px solid black;
 }
 
-.towns {
-    display: block;
 
-
-
-
-
-
-}
 
 footer {
     background-color: red;
