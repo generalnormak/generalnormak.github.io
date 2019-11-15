@@ -19,11 +19,7 @@ fetch(requestURL)
 
             h3.textContent = towns[i].motto;
 
-            p.textContent = 'Year Founded: ' + towns[i].yearFounded;
-
-            p.textContent = 'Population: ' + towns[i].currentPopulation;
-
-            p.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
+            p.textContent = 'Year Founded: ' + towns[i].yearFounded + 'Population: ' + towns[i].currentPopulation + 'Annual Rain Fall: ' + towns[i].averageRainfall;
 
             h4.textContent = 'Local Events: ' + towns[i].events;
 
@@ -32,10 +28,6 @@ fetch(requestURL)
             card.appendChild(h2);
 
             card.appendChild(h3);
-
-            card.appendChild(p);
-
-            card.appendChild(p);
 
             card.appendChild(p);
 
