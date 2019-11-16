@@ -9,7 +9,7 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
         for (let i = 0; i < towns.length; i++) {
 
-            /*if (i = 1, 4, 5) {*/
+            if (towns[i] = towns[1], or = towns[4], or = towns[5]) {
 
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
@@ -32,7 +32,7 @@ fetch(requestURL)
 
             h5.textContent = 'Local Events: ' + towns[i].events;
 
-            image.setAttribute('src', towns[i].photo);
+            image.setAttribute('src', 'images/'+towns[i].photo);
 
             card.appendChild(h2);
 
@@ -49,6 +49,7 @@ fetch(requestURL)
             card.appendChild(image);
 
             document.querySelector('div.cards').appendChild(card);
-            /*}*/
+            }
+            
         }
     });
