@@ -8,33 +8,47 @@ fetch(requestURL)
         //console.table(jsonObject); // temporary checking for valid response and data parsing
         const towns = jsonObject['towns'];
         for (let i = 0; i < towns.length; i++) {
+
+            /*if (i = 1, 4, 5) {*/
+
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
-            let h3 = document.createElement('h3');
+            let h4 = document.createElement('h4');
             let p = document.createElement('p');
-            let h4 = document.createElement('h4')
+            let p1 = document.createElement('p');
+            let p2 = document.createElement('p');
+            let h5 = document.createElement('h5');
             let image = document.createElement('img');
 
             h2.textContent = towns[i].name;
 
-            h3.textContent = towns[i].motto;
+            h4.textContent = towns[i].motto;
 
-            p.textContent = 'Year Founded: ' + towns[i].yearFounded + 'Population: ' + towns[i].currentPopulation + 'Annual Rain Fall: ' + towns[i].averageRainfall;
+            p.textContent = 'Year Founded: ' + towns[i].yearFounded;
 
-            h4.textContent = 'Local Events: ' + towns[i].events;
+            p1.textContent = 'Population: ' + towns[i].currentPopulation;
+
+            p2.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
+
+            h5.textContent = 'Local Events: ' + towns[i].events;
 
             image.setAttribute('src', towns[i].photo);
 
             card.appendChild(h2);
 
-            card.appendChild(h3);
+            card.appendChild(h4);
 
             card.appendChild(p);
 
-            card.appendChild(h4);
+            card.appendChild(p1);
+
+            card.appendChild(p2);
+
+            card.appendChild(h5);
 
             card.appendChild(image);
 
             document.querySelector('div.cards').appendChild(card);
+            /*}*/
         }
     });

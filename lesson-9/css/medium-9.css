@@ -37,36 +37,5 @@
 		margin-left: 17px;
 	}
 
-	.fivedayh4 {
-		display: block;
-		background-color: red;
-		color: #fff;
-		border-radius: 0.5rem;
-		margin: 0.5rem;
-		border: 1px solid black;
-	}
-
-	.fivedayimg {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
-	}
-
-	.articleclass {
-		float: right;
-		padding: 10px;
-	}
-
-	.mapimage {
-		display: block;
-		float: left;
-		padding: 20px;
-	}
-
-	.floatright {
-		text-align: right;
-		padding: 20px;
-	}
 
 }
