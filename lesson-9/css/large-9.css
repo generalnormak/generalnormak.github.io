@@ -13,4 +13,8 @@
 		max-width: 1250px;
 	}
 
+	div.cards img {
+        max-width: 300px;
+    }
+
 }

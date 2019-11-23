@@ -134,7 +134,7 @@ section.contentbox {
 
 div.cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
     overflow: auto;
     width: 100%;
 }
@@ -163,8 +163,7 @@ div.cards h5 {
 }
 
 div.cards img {
-        max-width: 275px;
-        text-align: center;
+        max-width: 325px;
     }
 
 section.socialarea {
