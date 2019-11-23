@@ -49,15 +49,40 @@
                 <img src="images/heroimagetestsmall.jpg" alt="Town of Preston"></picture>
             <section class="weathersummary">
                 <h2>Weather Summary</h2>
-                <p>Currently: Sunny</p>
-                <p>High: <span id="temp">76</span> &#176;F</p>
+                <p>Currently: <span id="currently"> </span></p>
+                <p>High: <span id="temp"> </span> &#176;F</p>
                 <p>Wind Chill: <span id="chill"></span> &#176;F</p>
-                <p>Humidity: 69%</p>
-                <p>Wind Speed: <span id="speed">5</span> mph</p>
+                <p>Humidity: <span id="humidity"> </span>%</p>
+                <p>Wind Speed: <span id="speed"> </span> mph</p>
             </section>
         </div>
-        <h4 class="fivedayh4">5 Day Forcast</h4>
-        <img class="fivedayimg" src="images/fivedayforcast.png" alt="five day forcast">
+
+        <section class="contentboxtable">
+            <table class="fivedayh4">
+                <thead>
+                    <caption>5 Day Forcast</caption>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <th id="day1"> 1</th>
+                        <th id="day2"> 2</th>
+                        <th id="day3"> 3</th>
+                        <th id="day4"> 4</th>
+                        <th id="day5"> 5</th>
+                    </tr>
+                    <tr>
+                        <td id="temp1"> &#176;Fa</td>
+                        <td id="temp2"> &#176;Fb</td>
+                        <td id="temp3"> &#176;Fc</td>
+                        <td id="temp4"> &#176;Fd</td>
+                        <td id="temp5"> &#176;Fe</td>
+                    </tr>
+                    </tbody>
+
+            </table>
+        </section>
+
         <section class="contentbox">
             <h4>The Article of Articles!</h4>
             <p class="articlep"><img class="articleclass" src="images/articleimage.jpg"
@@ -102,6 +127,8 @@
     <script src="js/responsivebanner-10.js">
     </script>
     <script src="js/responsivemenu-10.js">
+    </script>
+    <script src="js/weatherapipreston.js">
     </script>
     <script src="js/windchill.js">
     </script>
