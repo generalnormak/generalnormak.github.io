@@ -20,7 +20,7 @@ fetch(forecastapiURL)
 
                 th.setAttribute = jsObject.list[i].clouds.dt_txt;
 
-                'https://openweathermap.org/img/w/' + image.setAttribute('src', jsObject.list[i].weather[0].icon);
+                /*image.setAttribute('https://openweathermap.org/img/w/', jsObject.list[i].weather[0].icon);*/
 
                 td.setAttribute = jsObject.list[i].main.temp + ' &#176;F';
 
