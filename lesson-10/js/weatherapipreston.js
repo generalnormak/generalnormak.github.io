@@ -8,15 +8,3 @@ fetch(apiURL)
         document.getElementById('humidity').textContent = jsObject.main.humidity;
         document.getElementById('currently').textContent = jsObject.weather[0].main;
     });
-
-fetch(apiURL)
-    .then((response) => response.json())
-    .then((jsObject) => {
-            console.log(jsObject);
-                for (let i = 0; i < jsObject.list.length; i++) {
-                    if (jsObject.list[i].dt_txt.includes('18:00:00')) {
-                        console.log(jsObject.list[i].dt_txt);
-                    }
-                }
-
-            });
