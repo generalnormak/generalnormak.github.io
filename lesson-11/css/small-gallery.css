@@ -170,8 +170,8 @@ footer {
     padding: 10px;
 }
 
-footer .lastupdated7,
-.currentdate7 {
+footer .lastupdated,
+.currentdate {
     text-align: center;
     font-size: 0.9rem;
     color: yellow;

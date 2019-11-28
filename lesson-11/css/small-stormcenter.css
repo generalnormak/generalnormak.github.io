@@ -196,8 +196,8 @@ footer {
     padding: 10px;
 }
 
-footer .lastupdated8,
-.currentdate8 {
+footer .lastupdated,
+.currentdate {
     text-align: center;
     font-size: 0.9rem;
     color: yellow;
