@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IsItHotOutHereOrIsItJustMe - Home Page</title>
+    <meta name="description"
+        content="Kamerons weather Home Page for preston site. Newly updated with JSON load of town information.">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam%7CNunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-index.css">
+    <link rel="stylesheet" href="css/medium-index.css">
+    <link rel="stylesheet" href="css/large-index.css">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/weathersitelogo.png" alt="Sunny Forcast Logo">
+        </picture>
+        <section class="headings">
+            <h1>Is It Hot Out Here Or Is It Just Me?</h1>
+            <div class="m">The weather site that gets it right 100% of the time, until the weather actually changes.
+            </div>
+        </section>
+
+    </header>
+    <nav>
+        <Ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="../lesson-11/preston.html">Preston</a></li>
+            <li><a href="../lesson-11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="../lesson-11/fishhaven.html">Fish Haven</a></li>
+            <li><a href="../lesson-11/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson-11/gallery.html">Gallery</a></li>
+        </Ul>
+
+    </nav>
+    <main>
+
+        <h3>Is It Hot Out Here Or Is It Just Me? The Home Page!</h3>
+
+        <section class="contentbox">
+            <p>Looking for information on our 3 most popular towns? Are you a local feeling under the weather and need
+                to report it? Wanting to keep up with local events in your area? Look no further. The "Is It Hot Out
+                Here Or is It Just Me?" Website has all your needs taken care of! Are you new? Feel free to browse some
+                of the information on this page and if you want more info on any of the towns, head on over to any of
+                the town pages for further info. Got a nast looking storm headng your way in one of these towns feel
+                free to go to our weather center to report the storm so we know whats going on. If your just looking for
+                events happening on the town we update this site frequently with new events happening every week. So
+                come on down and see what we are about!</p>
+        </section>
+
+
+        <div class="cards"> </div>
+
+
+        <section class="socialarea">
+            <p class="socialtime">Time to get social! Check out our social media! We got plenty of updates for ya right there to!</p>
+
+                <div class="socialbox">
+                    <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon"
+                            src="images/facebook.png" alt="facebook"></a>
+    
+                    <a class="socialmedia" target="_blank" href="https://www.youtube.com"><img class="icon"
+                            src="images/youtube.png" alt="youtube"></a>
+    
+                    <a class="socialmedia" target="_blank" href="https://www.twitter.com"><img class="icon"
+                            src="images/twitter.png" alt="twitter"></a>
+                </div>
+            </section>
+
+    </main>
+
+    <footer>
+        &copy; 2020 | Kameron N. Redford | Florida | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        <span class="currentdate">Current Date: <span id="date"></span></span>
+        <br><span class="lastupdated">Updated: <span id="lastmodified"></span></span>
+    </footer>
+    <script src="js/responsivemenu.js">
+    </script>
+    <script src="js/towns.js">
+    </script>
+    <script src="js/currentdate.js">
+    </script>
+    <script src="js/lastmodified.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+
+</html>

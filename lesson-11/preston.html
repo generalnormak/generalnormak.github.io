@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IsItHotOutHereOrIsItJustMe - Preston</title>
+    <meta name="description"
+        content="Kamerons weather Home Page for preston site. Newly updated with API Weather content.">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam%7CNunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-preston.css">
+    <link rel="stylesheet" href="css/medium-preston.css">
+    <link rel="stylesheet" href="css/large-preston.css">
+</head>
+
+<body>
+    <p class="pancakes">Saturday = Preston Pancakes in the Park! 9:00 a.m. Friday at the city park.</p>
+    <header>
+        <picture>
+            <img src="images/weathersitelogo.png" alt="Sunny Forcast Logo">
+        </picture>
+        <section class="headings">
+            <h1>Is It Hot Out Here Or Is It Just Me?</h1>
+            <div class="m">The weather site that gets it right 100% of the time, until the weather actually changes.
+            </div>
+        </section>
+
+    </header>
+    <nav>
+        <Ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../lesson-11/index.html">Home</a></li>
+            <li><a href="#" class="active">Preston</a></li>
+            <li><a href="../lesson-11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="../lesson-11/fishhaven.html">Fish Haven</a></li>
+            <li><a href="../lesson-11/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson-11/gallery.html">Gallery</a></li>
+        </Ul>
+
+    </nav>
+    <main>
+        <h3>Preston Idaho</h3>
+        <div class="herodiv">
+            <picture class="hero-ph">
+                <source srcset="images/heroimagetestmedium.jpg" media="(min-width: 37.5em) and (max-width: 59em)">
+                <source srcset="images/heroimagetestlarge.jpg" media="(min-width: 60em)">
+                <img src="images/heroimagetestsmall.jpg" alt="Town of Preston"></picture>
+            <section class="weathersummary">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="currently"> </span></p>
+                <p>High: <span id="temp"> </span> &#176;F</p>
+                <p>Wind Chill: <span id="chill"></span> &#176;F</p>
+                <p>Humidity: <span id="humidity"> </span>%</p>
+                <p>Wind Speed: <span id="speed"> </span> mph</p>
+            </section>
+        </div>
+
+        <div class="cards"></div>
+        <section class="contentboxtable">
+            <table class="fivedayh4">
+                <thead>
+                    <caption>5 Day Forcast</caption>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <th id="day1"> 1</th>
+                        <th id="day2"> 2</th>
+                        <th id="day3"> 3</th>
+                        <th id="day4"> 4</th>
+                        <th id="day5"> 5</th>
+                    </tr>
+                    <tr>
+                        <td id="temp1"> &#176;Fa</td>
+                        <td id="temp2"> &#176;Fb</td>
+                        <td id="temp3"> &#176;Fc</td>
+                        <td id="temp4"> &#176;Fd</td>
+                        <td id="temp5"> &#176;Fe</td>
+                    </tr>
+                    </tbody>
+
+            </table>
+        </section>
+
+        <section class="contentbox">
+            <h4>The Article of Articles!</h4>
+            <p class="articlep"><img class="articleclass" src="images/articleimage.jpg"
+                    alt="A walk down the scenic route.">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                neque ab unde a dicta
+                quas, iusto et debitis ipsum officiis aliquam suscipit similique omnis praesentium fugiat ullam
+                necessitatibus. Ea, totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed assumenda
+                doloribus voluptas corporis atque doloremque mollitia nulla quis, labore, accusamus ipsum repudiandae et
+                autem libero blanditiis distinctio suscipit inventore veritatis! Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Aliquid a laborum illo enim cum voluptatibus impedit ratione! Nisi fuga tempora atque
+                praesentium molestias laborum, omnis qui consequatur excepturi? Consequatur, cupiditate! Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Provident quisquam excepturi nemo, nam incidunt sunt
+                asperiores! Sint esse ducimus aut impedit similique dignissimos, ut corrupti odit, exercitationem
+                possimus aspernatur perferendis?</p>
+        </section>
+        <section class="contentbox">
+
+            <img class="mapimage" src="images/prestonmap.jpg" alt="Our Location">
+            <h4 class="floatright">Is It Hot Out Here Or Is It Just Me?</h4>
+            <p class="floatright">Address: 30 N 1st E<br>
+                Phone Number: 999.999.999<br>
+                Email: IsItHotOutHereOrIsItJustMe.com</p>
+            <div class="socialbox">
+                <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon"
+                        src="images/facebook.png" alt="facebook"></a>
+
+                <a class="socialmedia" target="_blank" href="https://www.youtube.com"><img class="icon"
+                        src="images/youtube.png" alt="youtube"></a>
+
+                <a class="socialmedia" target="_blank" href="https://www.twitter.com"><img class="icon"
+                        src="images/twitter.png" alt="twitter"></a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; 2020 | Kameron N. Redford | Florida | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        <span class="currentdate">Current Date: <span id="date"></span></span>
+        <br><span class="lastupdated">Updated: <span id="lastmodified"></span></span>
+    </footer>
+    <script src="js/responsivebanner.js">
+    </script>
+    <script src="js/responsivemenu.js">
+    </script>
+    <script src="js/weatherapipreston.js">
+    </script>
+    <script src="js/weatherapiprestonforecast.js">
+    </script>
+    <script src="js/windchill.js">
+    </script>
+    <script src="js/currentdate.js">
+    </script>
+    <script src="js/lastmodified.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+
+</html>

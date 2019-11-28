@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IsItHotOutHereOrIsItJustMe - Gallery</title>
+    <meta name="description"
+        content="Kamerons weather gallery. Demonstrating the capability of lazy load and image loading.">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam%7CNunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-gallery.css">
+    <link rel="stylesheet" href="css/medium-gallery.css">
+    <link rel="stylesheet" href="css/large-gallery.css">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/weathersitelogo.png" alt="Sunny Forcast Logo">
+        </picture>
+        <section class="headings">
+            <h1>Is It Hot Out Here Or Is It Just Me?</h1>
+            <div class="m">The weather site that gets it right 100% of the time, until the weather actually changes.
+            </div>
+        </section>
+
+    </header>
+    <nav>
+        <Ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../lesson-11/index.html">Home</a></li>
+            <li><a href="../lesson-11/preston.html">Preston</a></li>
+            <li><a href="../lesson-11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="../lesson-11/fishhaven.html">Fish Haven</a></li>
+            <li><a href="../lesson-11/stormcenter.html">Storm Center</a></li>
+            <li><a href="#" class="active">Gallery</a></li>
+        </Ul>
+
+    </nav>
+    <main>
+        <div class="container">
+            <figure>
+                <img class="norm" src="images/placeholder.png" data-src="images/cloudygrass.jpg" alt="Clouds over grass">
+                <figcaption>Clouds over grass.</figcaption>
+            </figure>
+            <figure><img class="norm" src="images/placeholder.png" data-src="images/darkclouds.jpg" alt="Dark clouds">
+                <figcaption>Dark clouds.</figcaption>
+            </figure>
+            <figure><img class="norm" src="images/placeholder.png" data-src="images/horizon.jpg" alt="Horizon">
+                <figcaption>Horizon.</figcaption>
+            </figure>
+            <figure><img class="norm" src="images/placeholder.png" data-src="images/lighting.jpg" alt="Lighting">
+                <figcaption>Lighting.</figcaption>
+            </figure>
+            <figure><img class="norm" src="images/placeholder.png" data-src="images/partialycloudy.jpg" alt="Partialy cloudy">
+                <figcaption>Partialy cloudy.</figcaption>
+            </figure>
+            <figure><img class="norm" src="images/placeholder.png" data-src="images/rainmountain.jpg" alt="Rainy mountain scape">
+                <figcaption>Rainy mountain scape.</figcaption>
+            </figure>
+            <figure><img class="norm" src="images/placeholder.png" data-src="images/stormintown.jpg" alt="Storm in town">
+                <figcaption>Storm in town.</figcaption>
+            </figure>
+            <figure><img class="norm" src="images/placeholder.png" data-src="images/stormrollingin.jpg" alt="Storm rolling in">
+                <figcaption>Storm rolling in.</figcaption>
+            </figure>
+            <figure><img class="norm" src="images/placeholder.png" data-src="images/sunnylighting.jpg" alt="Storm and sunlight">
+                <figcaption>Storm and sunlight.</figcaption>
+            </figure>
+        </div>      
+    </main>
+
+    <footer>
+        &copy; 2020 | Kameron N. Redford | Florida | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        <span class="currentdate">Current Date: <span id="date"></span></span>
+        <br><span class="lastupdated">Updated: <span id="lastmodified"></span></span>
+    </footer>
+    <script src="js/lazyload.js">
+    </script>
+    <script src="js/responsivemenu.js">
+    </script>
+    <script src="js/currentdate.js">
+    </script>
+    <script src="js/lastmodified.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+
+</html>
