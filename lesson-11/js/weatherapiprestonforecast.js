@@ -1,4 +1,19 @@
+const daysnames = [
+	"Sunday",
+	"Monday",
+	"Tuesday",
+	"Wednesday",
+	"Thursday",
+	"Friday",
+	"Saturday"
+];
+const ds = new Date();
+const dayNames = daysnames[ds.getDay()];
+const fulldates = dayNames;
 const forecastapiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=f7e1535536fec9ae94ea8cdcf72b6ab2";
+var days = 1;
+var icons = 1;
+var temps = 1;
 fetch(forecastapiURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -6,7 +21,18 @@ fetch(forecastapiURL)
         for (let i = 0; i < jsObject.list.length; i++) {
             if (jsObject.list[i].dt_txt.includes('18:00:00')) {
                 console.log(jsObject.list[i].dt_txt);
-                let card = document.createElement('section');
+                document.getElementById("day" + days).innerHTML = fulldates;
+                days++;
+            document.getElementById("temp" + temps).innerHTML = jsObject.list[i].main.temp + "&#176F";
+            temps++;
+            const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png'; // note the concatenation
+        const desc = jsObject.list[i].weather[0].description; // note how we reference the weather array
+        /*document.getElementById('imagesrc' + icons).innerHTML = imagesrc; // informational specification only*/
+        document.getElementById('icon' + icons).setAttribute('src', imagesrc); // focus on the setAttribute() method
+        document.getElementById('icon' + icons).setAttribute('alt', desc);
+        icons++;
+
+                /*let card = document.createElement('section');
                 let table = document.createElement('table');
                 let thead = document.createElement('thead');
                 let caption = document.createElement('caption');
@@ -20,7 +46,7 @@ fetch(forecastapiURL)
 
                 th.setAttribute = jsObject.list[i].clouds.dt_txt;
 
-                /*image.setAttribute('https://openweathermap.org/img/w/', jsObject.list[i].weather[0].icon);*/
+                image.setAttribute('https://openweathermap.org/img/w/', jsObject.list[i].weather[0].icon);
 
                 td.setAttribute = jsObject.list[i].main.temp + ' &#176;F';
 
@@ -44,7 +70,7 @@ fetch(forecastapiURL)
 
                 card.appendChild(td);
 
-                document.querySelector('div.cards').appendChild(card);
+                document.querySelector('div.cards').appendChild(card);*/
             }
         }
 
