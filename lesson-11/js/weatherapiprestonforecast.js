@@ -1,15 +1,3 @@
-const daysnames = [
-	"Sunday",
-	"Monday",
-	"Tuesday",
-	"Wednesday",
-	"Thursday",
-	"Friday",
-	"Saturday"
-];
-const ds = new Date();
-const dayNames = daysnames[ds.getDay()];
-const fulldates = dayNames;
 const forecastapiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=f7e1535536fec9ae94ea8cdcf72b6ab2";
 var days = 1;
 var icons = 1;
@@ -21,7 +9,10 @@ fetch(forecastapiURL)
         for (let i = 0; i < jsObject.list.length; i++) {
             if (jsObject.list[i].dt_txt.includes('18:00:00')) {
                 console.log(jsObject.list[i].dt_txt);
-                document.getElementById("day" + days).innerHTML = fulldates;
+               /* var d = new Date();
+                d.setDate(jsObject.list[i].dt_txt);
+                document.getElementById("day" + days).innerHTML = d;*/
+                document.getElementById("day" + days).innerHTML = jsObject.list[i].dt_txt;
                 days++;
             document.getElementById("temp" + temps).innerHTML = jsObject.list[i].main.temp + "&#176F";
             temps++;
