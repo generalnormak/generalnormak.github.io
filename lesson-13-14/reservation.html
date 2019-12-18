@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Temple Inn & Suites Wevsite! - Reservations</title>
+    <meta name="description" content="Kamerons reservation page.">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam%7CNunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-reservation.css">
+    <link rel="stylesheet" href="css/medium-reservation.css">
+    <link rel="stylesheet" href="css/large-reservation.css">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/templelogo.png" alt="The Temple Logo">
+        </picture>
+        <section class="headings">
+            <h1>The Temple Inn & Suites Website</h1>
+            <div class="m">The one stop for all your temple and visiting needs!
+            </div>
+        </section>
+
+    </header>
+    <nav>
+        <Ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../lesson-13-14/index.html">Home</a></li>
+            <li><a href="../lesson-13-14/temple.html">Temple</a></li>
+            <li><a href="#" class="active">Reservation</a></li>
+            <li><a href="../lesson-13-14/services.html">Services</a></li>
+            <li><a href="../lesson-14-14/contactpage.html">Contact Page</a></li>
+        </Ul>
+
+    </nav>
+    <main>
+
+        <h3>Reserve Your Stay Today!</h3>
+
+        <form method="get" action="reservationsaved.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">Full Name* <input type="text" name="fname" pattern="[A-Za-z].{6,}"
+                        title="Six or more characters, and only letters" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">State* <input type="text" name="state" placeholder="UT" required></label>
+                <label class="top">Country* <input type="text" name="country" placeholder="USA" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Hotel Booking</legend>
+                <label class="top">Check-in* <input type="date" name="completeDate" required></label>
+                <label class="top">Check-out* <input type="date" name="completeDate" required></label>
+                <label class="top">Destination* <input type="text" name="location" placeholder="Provo, Utah, United States Of America" required></label>
+                
+                <div>Rooms</div>
+                <label class="sbs">
+                    <select name="subject">
+                        <option value="">Select Room Amount</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9+">9+</option>
+                    </select>
+                </label>
+                
+                <div>Room Type</div>
+                <label class="sbs">
+                    <input list="room" name="type">
+                    <datalist id="room">
+                        <option value="Regular Room"></option>
+                        <option value="Full-Time Missionary Room"></option>
+                        <option value="Wedding Reception Room"></option>
+                        <option value="Family History Room"></option>
+                        <option value="Children Room"></option>
+                </label>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Acommodations/Comments</legend>
+                <div>Adults Amount</div>
+                <label class="sbs">
+                    <select name="subject">
+                        <option value="">Age: 18+</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9+">9+</option>
+                    </select>
+                </label>
+                <div>Children Amount</div>
+                <label class="sbs">
+                    <select name="subject">
+                        <option value="">Age: 0-17</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9+">9+</option>
+                    </select>
+                </label>
+                <label class="top">Tell us your concerns here! <input type="textarea" name="commentBox" id=""></label>
+
+            </fieldset>
+
+            <input type="submit" value="Reserve Now!" class="submitBtn">
+
+        </form>
+
+    </main>
+
+    <footer>
+        &copy; 2020 | Kameron N. Redford | Florida | <a class="footerlink" href="https://www.byui.edu/online">BYUI
+            Online Learning</a>
+        <span class="currentdate">Current Date: <span id="date"></span></span>
+        <br><span class="lastupdated">Updated: <span id="lastmodified"></span></span>
+    </footer>
+    <script src="js/responsivemenu.js">
+    </script>
+    <script src="js/adjustrating.js"></script>
+    <script src="js/currentdate.js">
+    </script>
+    <script src="js/lastmodified.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+
+</html>

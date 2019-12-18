@@ -12,7 +12,7 @@ header {
     display: flex;
 	align-items:center;
     justify-content:center;
-    background-color: red;
+    background-color: blue;
     color: #fff;
     text-align: center;
     border-radius: 0.5rem;
@@ -109,7 +109,7 @@ nav a:hover {
 }
 
 h3 {
-    background-color: red;
+    background-color: blue;
     color: #fff;
     border-radius: 0.5rem;
     margin: 0.5rem;
@@ -134,7 +134,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: red;
+    color: blue;
     font-size: .8rem;
 }
 
@@ -158,7 +158,7 @@ form label.sbs {
 
 form input.submitBtn {
     border: none;
-    background-color: red;
+    background-color: blue;
     color: white;
     border-radius: 1rem;
     padding: .75rem 0;
@@ -168,11 +168,11 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-    border-left: red solid 6px;
+    border-left: blue solid 6px;
 }
 
 form label.top input:required:valid {
-    border-left: green solid 6px;
+    border-left: red solid 6px;
 }
 
 .thankyousomuch {
@@ -185,7 +185,7 @@ form label.top input:required:valid {
 }
 
 footer {
-    background-color: red;
+    background-color: blue;
     color: #fff;
     text-align: center;
     border-radius: 0.5rem;
@@ -194,6 +194,10 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 10px;
+}
+
+.footerlink {
+    color: yellow;
 }
 
 footer .lastupdated,
