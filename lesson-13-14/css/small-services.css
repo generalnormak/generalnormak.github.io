@@ -131,6 +131,10 @@ section.contentbox {
     overflow: scroll;
 }
 
+.services1 {
+    text-align: center;
+}
+
 .contentbox {
     padding: 5px;
     background-color: lightgrey;
