@@ -9,9 +9,9 @@
         "telephone": "(234) 80-3903-4804",
         "email": "theabanigeriatemple.com",
         "services" : [
-            "No clothing rental available ",
-            "No cafeteria available ",
-            "Patron housing available ",
+            "No clothing rental available",
+            "No cafeteria available",
+            "Patron housing available",
             "Distribution center nearby"
           ],
         "history" : [
@@ -40,8 +40,7 @@
             "2020: Saturday, 15 August 2020",
             "2020: Monday, 7 September 2020 - Monday, 21 September 2020",
             "2020: Thursday, 24 December 2020 - Saturday, 26 December 2020"
-          ],
-        "image": "nigeriatemple.jpg"
+          ]
       },
       {
         "name": "Accra Ghana Temple",
@@ -86,8 +85,7 @@
             "2020: Saturday, 15 August 2020",
             "2020: Monday, 7 September 2020 - Monday, 9 November 2020",
             "2020: Friday, 25 December 2020 - Saturday, 26 December 2020"
-          ],
-        "image": "ghanatemple.jpg"
+          ]
       },
       {
         "name": "Asunción Paraguay Temple",
@@ -132,8 +130,7 @@
             "2020: Monday, 19 October 2020 - Saturday, 31 October 2020",
             "2020: Thursday, 24 December 2020 - Friday, 25 December 2020",
             "2020: Thursday, 31 December 2020 - Friday, 1 January 2021"
-          ],
-        "image": "paraguaytemple.jpeg"
+          ]
       },
       {
         "name": "Barranquilla Colombia Temple",
@@ -179,8 +176,7 @@
             "2020: Monday, 16 November 2020 - Monday, 30 November 2020",
             "2020: Thursday, 24 December 2020 - Friday, 25 December 2020",
             "2020: Thursday, 31 December 2020 - Friday, 1 January 2021"
-          ],
-        "image": "colombiatemple.jpg"
+          ]
       }
     ]
   }

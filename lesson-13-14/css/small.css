@@ -175,42 +175,29 @@ table, th, td {
     color: white;
 }
 
-
-
-.articlep {
-    width: auto;
-    height: 250px;
-    overflow: auto;
+div.cards section {
+    border: 1px solid blue;
+    background: lightgray;
+    margin: 1rem;
 }
 
-.articleclass {
-    padding: 80px;
+div.cards h2 {
+    text-align: center;
+    color: blue;
 }
 
-.mapimage {
-    display: none;
-}
-
-.floatright {
+div.cards h4 {
     text-align: center;
 }
 
-.socialbox {
-    max-width: 100%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
+div.cards p {
+    text-align: center;
 }
 
-.socialmedia {
-    padding: 10px;
+div.cards h5 {
+    text-align: center;
 }
 
-.img {
-    max-width: 100%;
-}
 
 .contentbox {
     padding: 5px;
