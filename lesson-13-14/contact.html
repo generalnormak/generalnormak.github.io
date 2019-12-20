@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Temple Inn & Suites Wevsite! - Contact Us</title>
+    <meta name="description" content="Kamerons Temple Inn and Suites Contact Us page!">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam%7CNunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-contact.css">
+    <link rel="stylesheet" href="css/medium-contact.css">
+    <link rel="stylesheet" href="css/large-contact.css">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/templelogo.png" alt="The Temple Logo">
+        </picture>
+        <section class="headings">
+            <h1>The Temple Inn & Suites Website</h1>
+            <div class="m">The one stop for all your temple and visiting needs!
+            </div>
+        </section>
+
+    </header>
+    <nav>
+        <Ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../lesson-13-14/index.html">Home</a></li>
+            <li><a href="../lesson-13-14/temple.html">Temple</a></li>
+            <li><a href="../lesson-13-14/reservation.html">Reservation</a></li>
+            <li><a href="../lesson-13-14/services.html">Services</a></li>
+            <li><a href="#" class="active">Contact Page</a></li>
+        </Ul>
+
+    </nav>
+    <main>
+
+
+
+        <section class="contentbox">
+            <h3>The Temple Inn & Suites Website Contact Us Page!</h3>
+            <h4>Kept Ya Waiting Huh?</h4>
+            <p>We Appreciate your time and commitment you have put into looking into our website. We want you to feel
+                statisfied with any questions you have up to this point. Below is our special "Contact us box". There
+                you can submit any questions you feel like in regards to our services. Questions can include but, are
+                not limited to.</p>
+
+            <ul>
+                <li>3rd party venues that frequent our recption hall</li>
+                <li>How to qualify for our Full-Time missionary rooms</li>
+                <li>Local DJ's in town</li>
+                <li>Best places to visit after the temple</li>
+                <li>etc.</li>
+            </ul>
+
+            <p>We will be sure to respond to you within a timely manner. Thank you again for choosing The Temple Inn &
+                Suites Website!</p>
+        </section>
+
+        <form method="get" action="contactsaved.html">
+
+
+            <fieldset>
+                <legend>Contact Us!</legend>
+
+                <label class="top">Full Name* <input type="text" name="fname" pattern="[A-Za-z].{6,}"
+                        title="Six or more characters, and only letters" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com"
+                        required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <div>Concern Type</div>
+                <label class="sbs">
+                    <input list="concern" name="type">
+                    <datalist id="concern">
+                        <option value="Regular Question"></option>
+                        <option value="Full-Time Missionary Question"></option>
+                        <option value="Wedding Reception Question"></option>
+                        <option value="Family History Question"></option>
+                        <option value="Children Question"></option>
+                        <option value="Conference Question"></option>
+                </label>
+                <label class="top">Ask your questions here! <input type="textarea" name="commentBox" id=""></label>
+
+            </fieldset>
+
+            <input type="submit" value="Contact Now!" class="submitBtn">
+
+        </form>
+
+        <section class="contentbox">
+
+            <iframe class="mapimage"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197013285!2d-77.09772048435121!3d38.98325177955741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576638777047!5m2!1sen!2sus"
+                width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <h4 class="floatright">Our Location!</h4>
+            <p class="floatright">Address: 4800 Montgomery Ln #300, Bethesda, MD 20814<br>
+                Phone Number: 854.311.9587<br>
+                Email: thetempleinn&suites.com</p>
+            <div class="socialbox">
+                <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon"
+                        src="images/facebook.png" alt="facebook"></a>
+
+                <a class="socialmedia" target="_blank" href="https://www.youtube.com"><img class="icon"
+                        src="images/youtube.png" alt="youtube"></a>
+
+                <a class="socialmedia" target="_blank" href="https://www.twitter.com"><img class="icon"
+                        src="images/twitter.png" alt="twitter"></a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        &copy; 2020 | Kameron N. Redford | Florida | <a class="footerlink" href="https://www.byui.edu/online">BYUI
+            Online Learning</a>
+        <span class="currentdate">Current Date: <span id="date"></span></span>
+        <br><span class="lastupdated">Updated: <span id="lastmodified"></span></span>
+    </footer>
+    <script src="js/responsivemenu.js">
+    </script>
+    <script src="js/currentdate.js">
+    </script>
+    <script src="js/lastmodified.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+
+</html>
