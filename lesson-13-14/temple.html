@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Temple Inn & Suites Wevsite! - Temple Page</title>
+    <meta name="description" content="Kamerons Temple Inn and Suites Temple Page!">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam%7CNunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/templelogo.png" alt="The Temple Logo">
+        </picture>
+        <section class="headings">
+            <h1>The Temple Inn & Suites Website</h1>
+            <div class="m">The one stop for all your temple and visiting needs!
+            </div>
+        </section>
+
+    </header>
+    <nav>
+        <Ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../lesson-13-14/index.html">Home</a></li>
+            <li><a href="#" class="active">Temple</a></li>
+            <li><a href="../lesson-13-14/reservation.html">Reservation</a></li>
+            <li><a href="../lesson-13-14/services.html">Services</a></li>
+            <li><a href="../lesson-13-14/contact.html">Contact Page</a></li>
+        </Ul>
+
+    </nav>
+    <main>
+
+        <section class="contentbox">
+            <h3>The Temple Inn & Suites Website The Temple Page!</h3>
+            <h4>Featued Temples Today Are Here!</h4>
+            <p>Here are just a few of the temples that we are locations are close to! Feel free to come to this page to
+                get your one stop shop for all the info you need on the temple before visiting or performing sacred
+                ordincances! Below is first the weather around the area and then temple details! If you have questions
+                about other temples we are close to feel free to<a href="../lesson-13-14/contact.html"> Contact Us
+                    Here!</a>></p>
+        </section>
+
+
+        <div class="herodiv">
+            <picture class="hero-ph">
+                <source srcset="images/heroimagemedium.jpg" media="(min-width: 37.5em) and (max-width: 59em)">
+                <source srcset="images/heroimage.jpeg" media="(min-width: 60em)">
+                <img src="images/heroimagesmall.jpg" alt="Town of Preston"></picture>
+            <section class="weathersummary">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="currently"> </span></p>
+                <p>High: <span id="temp"> </span> &#176;F</p>
+                <p>Wind Chill: <span id="chill"></span> &#176;F</p>
+                <p>Humidity: <span id="humidity"> </span>%</p>
+                <p>Wind Speed: <span id="speed"> </span> mph</p>
+            </section>
+        </div>
+
+
+        <div class="cards"> </div>
+
+
+    </main>
+
+    <footer>
+        &copy; 2020 | Kameron N. Redford | Florida | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        <span class="currentdate">Current Date: <span id="date"></span></span>
+        <br><span class="lastupdated">Updated: <span id="lastmodified"></span></span>
+    </footer>
+    <script src="js/responsivemenu.js">
+    </script>
+    <script src="js/weatherapipreston.js">
+    </script>
+    <script src="js/windchill.js">
+    </script>
+    <script src="js/currentdate.js">
+    </script>
+    <script src="js/lastmodified.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+
+</html>

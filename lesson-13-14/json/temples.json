@@ -1,0 +1,186 @@
+{
+    "temples": [{
+        "name": "Aba Nigeria Temple",
+        "address" : [
+            "72-80 Okpu-Umuobo Rd",
+            "Aba",
+            "Abia State, Nigeria"
+          ],
+        "telephone": "(234) 80-3903-4804",
+        "email": "theabanigeriatemple.com",
+        "services" : [
+            "No clothing rental available",
+            "No cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+          ],
+        "history" : [
+            "Announced: 2 April 2000",
+            "Groundbreaking: 23 February 2002",
+            "Dedicated: 7 August 2005"
+          ],
+        "ordinance" : [
+            "Baptism: 9:00 AM - 3:00 PM",
+            "Initiatory: 7:30 AM - 7:00 PM",
+            "Sealing: 7:00 AM - 6:00 PM",
+            "Endowment: 8:30 AM - 6:30 PM"
+          ],
+        "session" : [
+            "Endowment: 8:30 AM",
+            "Endowment: 10:30 AM",
+            "Endowment: 12:30 PM",
+            "Endowment: 2:30 PM",
+            "Endowment: 4:30 PM",
+            "Endowment: 6:30 PM"
+          ],
+        "closure" : [
+            "2019: Tuesday, 24 December 2019 - Thursday, 26 December 2019",
+            "2020: Wednesday, 1 January 2020",
+            "2020: Monday, 2 March 2020 - Monday, 16 March 2020",
+            "2020: Saturday, 15 August 2020",
+            "2020: Monday, 7 September 2020 - Monday, 21 September 2020",
+            "2020: Thursday, 24 December 2020 - Saturday, 26 December 2020"
+          ],
+        "image": "nigeriatemple.jpg"
+      },
+      {
+        "name": "Accra Ghana Temple",
+        "address" : [
+            "Accra Ghana Temple Complex",
+            "57 Independence Ave, North Ridge",
+            "P.M.B. CT 209, Cantonments, Accra, Ghana"
+          ],
+        "telephone": "(233) 302-650-123",
+        "email": "theaccraghanatemple.com",
+        "services" : [
+            "No clothing rental available",
+            "No cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+          ],
+        "history" : [
+            "Announced: 16 February 1998",
+            "Groundbreaking: 16 November 2001",
+            "Dedicated: 11 January 2004"
+          ],
+        "ordinance" : [
+            "Baptism: 8:00 AM - 8:00 PM",
+            "Initiatory: 8:30 AM - 8:00 PM",
+            "Sealing: 8:30 AM - 8:00 PM",
+            "Endowment: 7:00 AM - 6:30 PM"
+          ],
+        "session" : [
+            "Endowment: 7:00 AM",
+            "Endowment: 8:30 AM",
+            "Endowment: 10:30 PM",
+            "Endowment: 12:30 PM",
+            "Endowment: 2:30 PM",
+            "Endowment: 4:30 PM",
+            "Endowment: 6:30 PM"
+          ],
+        "closure" : [
+            "2020: Wednesday, 1 January 2020",
+            "2020: Monday, 17 February 2020 - Monday, 2 March 2020",
+            "2020: Friday, 6 March 2020",
+            "2020: Tuesday, 4 August 2020",
+            "2020: Saturday, 15 August 2020",
+            "2020: Monday, 7 September 2020 - Monday, 9 November 2020",
+            "2020: Friday, 25 December 2020 - Saturday, 26 December 2020"
+          ],
+        "image": "ghanatemple.jpg"
+      },
+      {
+        "name": "Asunción Paraguay Temple",
+        "address" : [
+            "Avda Brasilia Esquina Avda España",
+            "Asunción",
+            "Paraguay"
+          ],
+        "telephone": "(595) 21-216-9200",
+        "email": "theasuncióntemple.com",
+        "services" : [
+            "No clothing rental available",
+            "No cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+          ],
+        "history" : [
+            "Announced: 2 April 2000",
+            "Groundbreaking: 3 February 2001",
+            "Dedicated: 19 May 2002",
+            "Rededicated: 3 November 2019"
+          ],
+        "ordinance" : [
+            "Baptism: 4:00 PM - 9:00 PM",
+            "Initiatory: please call the temple",
+            "Sealing: 4:00 PM - 10:00 PM",
+            "Endowment: 8:00 AM - 4:00 PM"
+          ],
+        "session" : [
+            "Endowment: 8:00 AM",
+            "Endowment: 9:30 AM",
+            "Endowment: 1:00 PM",
+            "Endowment: 2:30 PM",
+            "Endowment: 4:00 PM"
+          ],
+        "closure" : [
+            "2019: Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+            "2019: Tuesday, 31 December 2019 - Wednesday, 1 January 2020",
+            "2020: Saturday, 4 April 2020 - Sunday, 5 April 2020",
+            "2020: Monday, 20 April 2020 - Saturday, 2 May 2020",
+            "2020: Saturday, 3 October 2020 - Sunday, 4 October 2020",
+            "2020: Monday, 19 October 2020 - Saturday, 31 October 2020",
+            "2020: Thursday, 24 December 2020 - Friday, 25 December 2020",
+            "2020: Thursday, 31 December 2020 - Friday, 1 January 2021"
+          ],
+        "image": "paraguaytemple.jpeg"
+      },
+      {
+        "name": "Barranquilla Colombia Temple",
+        "address" : [
+            "Carrera 46 via Al Mar PR 107",
+            "Sentido",
+            "Barranquilla, Cartagena Atlantico, Colombia"
+          ],
+        "telephone": "(57) 5-310-0200",
+        "email": "thebarranquillatemple.com",
+        "services" : [
+            "No clothing rental available",
+            "No cafeteria available",
+            "No Patron housing available",
+            "Distribution center nearby"
+          ],
+        "history" : [
+            "Announced: 1 October 2011",
+            "Groundbreaking: 20 February 2016",
+            "Dedicated: 9 December 2018"
+          ],
+        "ordinance" : [
+            "Baptism: 9:00 AM - 12:00 PM",
+            "Initiatory: 9:00 AM - 12:00 PM",
+            "Sealing: 9:00 AM - 12:00 PM",
+            "Endowment: 8:00 AM - 12:00 PM"
+          ],
+        "session" : [
+            "Endowment: 8:00 AM",
+            "Endowment: 9:00 AM",
+            "Endowment: 11:00 AM",
+            "Endowment: 12:00 PM"
+          ],
+        "closure" : [
+            "2019: Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+            "2019: Tuesday, 31 December 2019 - Wednesday, 1 January 2020",
+            "2020: Saturday, 4 April 2020 - Sunday, 5 April 2020",
+            "2020: Friday, 1 May 2020",
+            "2020: Monday, 4 May 2020 - Monday, 18 May 2020",
+            "2020: Monday, 20 July 2020",
+            "2020: Friday, 7 August 2020",
+            "2020: Saturday, 3 October 2020 - Sunday, 4 October 2020",
+            "2020: Monday, 16 November 2020 - Monday, 30 November 2020",
+            "2020: Thursday, 24 December 2020 - Friday, 25 December 2020",
+            "2020: Thursday, 31 December 2020 - Friday, 1 January 2021"
+          ],
+        "image": "colombiatemple.jpg"
+      }
+    ]
+  }
