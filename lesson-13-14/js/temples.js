@@ -20,7 +20,6 @@ fetch(requestURL)
             let p3 = document.createElement('p');
             let p4 = document.createElement('p');
             let p5 = document.createElement('p');
-            let image = document.createElement('img');
 
             h2.textContent = temples[i].name;
 
@@ -40,8 +39,6 @@ fetch(requestURL)
 
             p5.textContent = 'Closure Times: ' + temples[i].closure;
 
-            image.setAttribute('src', 'images/' + temples[i].image);
-
             card.appendChild(h2);
 
             card.appendChild(h4);
@@ -59,8 +56,6 @@ fetch(requestURL)
             card.appendChild(p4);
 
             card.appendChild(p5);
-
-            card.appendChild(image);
 
             document.querySelector('div.cards').appendChild(card);
         }
