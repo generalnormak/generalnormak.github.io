@@ -5,21 +5,6 @@ body {
     margin: 0;
 }
 
-.pancakes {
-    font-family: 'Be Vietnam', sans-serif;
-    padding: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 0.5rem;
-    padding: 10px;
-    background-color: lightgrey;
-    margin: 0.5rem;
-    border: 1px solid black;
-    display: none;
-}
-
 header {
     font-family: 'Be Vietnam', sans-serif;
     padding: 1.5rem;
@@ -138,7 +123,7 @@ h3 {
 .templediv {
     margin: 0px auto;
     position: relative;
-    width: 100px;
+    left: 50px;
     height: 395px;
 }
 
@@ -151,27 +136,11 @@ h3 {
     color: white;
     position: absolute;
     top: 1px;
-    left: -400px;
+    left: -50px;
     background-color: blue;
     border: 1px solid blue;
     padding: .3rem;
     box-shadow: 0 0 30px #777;
-}
-
-.contentboxtable {
-    display: none;
-}
-
-caption {
-    color: black;
-}
-
-table, th, td {
-    border: 1px solid white;
-    border-collapse: collapse;
-    text-align: center;
-    background-color: blue;
-    color: white;
 }
 
 div.cards section {

@@ -8,6 +8,15 @@
 		width: 100%;
 	}
 
+	.templediv {
+		width: 100px;
+		left: 0px
+	}
+
+	.weathersummary {
+		left: -400px;
+	}
+
 	footer,
 	main {
 		max-width: 1250px;

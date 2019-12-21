@@ -37,33 +37,12 @@
 		margin-left: 17px;
 	}
 
-	.contentboxtable {
-		display: block;
-		padding: 5px;
-		background-color: lightgrey;
-		border-radius: 0.5rem;
-		margin: 0.5rem;
-		border: 1px solid black;
+	.templediv {
+		left: 360px;
 	}
 
-	.fivedayh4 {
-		margin: auto;
-	}
-
-	.articleclass {
-		float: right;
-		padding: 10px;
-	}
-
-	.mapimage {
-		display: block;
-		float: left;
-		padding: 20px;
-	}
-
-	.floatright {
-		text-align: right;
-		padding: 20px;
+	.weathersummary {
+		left: -340px;
 	}
 
 }
