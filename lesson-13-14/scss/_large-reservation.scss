@@ -1,0 +1,16 @@
+main {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+header img {
+	width: 100%;
+}
+
+form label.sbs {
+	padding: .4rem 0;
+}
+
+footer,
+main {
+	max-width: 1250px;
+}

@@ -5,6 +5,7 @@ body {
     margin: 0;
 }
 
+
 header {
     font-family: 'Be Vietnam', sans-serif;
     padding: 1.5rem;
@@ -120,29 +121,6 @@ h3 {
     text-align: center;
 }
 
-section.contentbox {
-    padding: 1px;
-    background-color: lightgrey;
-    border-radius: 0.5rem;
-    margin: 0.5rem;
-    border: 1px solid black;
-    width: auto;
-    height: 275px;
-    overflow: scroll;
-}
-
-.contact1 {
-    text-align: center;
-}
-
-.contentbox {
-    padding: 5px;
-    background-color: lightgrey;
-    border-radius: 0.5rem;
-    margin: 0.5rem;
-    border: 1px solid black;
-}
-
 form fieldset {
     margin: 2rem 0;
     border: 1px solid black;
@@ -157,14 +135,16 @@ form legend {
     padding: 0 .5rem;
 }
 
-form label.top, form div {
+form label.top,
+form div {
     display: block;
     padding-top: 1rem;
     color: blue;
     font-size: .8rem;
 }
 
-form label.top input, form label.top select {
+form label.top input,
+form label.top select {
     display: block;
     font-size: 1rem;
     border: solid 1px gray;
@@ -210,28 +190,6 @@ form label.top input:required:valid {
     text-align: center;
 }
 
-.mapimage {
-    display: none;
-}
-
-.floatright {
-    text-align: center;
-}
-
-.socialbox {
-    max-width: 100%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-}
-
-.socialmedia {
-    padding: 10px;
-}
-
-
 footer {
     background-color: blue;
     color: #fff;
@@ -243,7 +201,6 @@ footer {
     justify-content: center;
     padding: 10px;
 }
-
 
 .footerlink {
     color: yellow;

@@ -1,0 +1,23 @@
+@import "normalize";
+
+@import "small-index";
+@import "small";
+@import "small-reservation";
+@import "small-services";
+@import "small-contact";
+
+@media only screen and (min-width: 37.5em) {
+    @import "medium-index";
+    @import "medium";
+    @import "medium-reservation";
+    @import "medium-services";
+    @import "medium-contact";
+}
+
+@media only screen and (min-width: 60em) {
+    @import "large-index";
+    @import "large";
+    @import "large-reservation";
+    @import "large-services";
+    @import "large-contact";
+}
